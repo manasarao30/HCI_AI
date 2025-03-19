@@ -57,7 +57,7 @@ Run the following command to clone the project from GitHub:
 git clone https://github.com/yourusername/HCI_AI.git
 cd HCI_AI
 ```
-# 3️⃣ Set Up a Virtual Environment (Recommended)  
+# Set Up a Virtual Environment (Recommended)  
 
 It is **highly recommended** to create a **virtual environment** to manage dependencies.
 
@@ -89,6 +89,13 @@ Running the script generates a fun AI-generated “Hello World” message, such 
 "Galactic greetings, Space Cowboy! Your spaceship has landed in a dimension of infinite possibilities, where bytes are the constellations and code is the cosmic rhythm guiding the universe. Welcome to World 1.0 - where magic meets motherboard!"
 ```
 Note : the Message will vary each time because it makes the call to Groq AI to generate a Hello World Message each time it is run.
+
+# 📖 Documentation  
+
+## 🛠 Code Overview  
+This project integrates **Groq's Llama 3.1-8B-Instant model** to generate a **creative "Hello World" message**. The application makes an API call to Groq's AI model and retrieves a dynamically generated response.  
+The Steps I took to integrate the code as the same as specified in installation guide mentioned in above.To integrate the API, I compared multiple AI Models and their ease of usability with APIs as well as pricing tier (Groq was chosen because of their free tier and ease of use ) and API Keys and I found Groq to be the most simple and also allowed access to multiple AI Models using APIs. I then followed the Groq API Guidelines and Documentation to integrate the API. 
+First, I created the Groq Account and I created an API Key(Not published here for security concerns) and then proceeded to follow the guidelines mentioned in the Groq API Documentation to make the call to API and print the output.
 
 # 📝 Reflection  
 
