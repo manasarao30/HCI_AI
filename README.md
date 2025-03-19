@@ -83,3 +83,8 @@ pip install -r requirements.txt
 2. Replace "YOUR_GROQ_API_KEY_HERE" with your actual Groq API key.
 
 
+## Expected Output
+Running the script generates a fun AI-generated “Hello World” message, such as:
+```sh
+"Galactic greetings, Space Cowboy! Your spaceship has landed in a dimension of infinite possibilities, where bytes are the constellations and code is the cosmic rhythm guiding the universe. Welcome to World 1.0 - where magic meets motherboard!"
+```
