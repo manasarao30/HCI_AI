@@ -41,3 +41,18 @@ This project integrates **Groq's Llama 3.1-8B-Instant model** to generate a **un
 3. **Run the Application**  
    ```sh
    python main.py
+
+# 🚀 Installation & Setup Guide
+
+## 📌 Prerequisites
+Before running the project, ensure you have the following:
+- Python 3.x installed (Check using `python --version` or `python3 --version`).
+- An active **Groq API key** (Get it from [Groq Console](https://console.groq.com/)).
+
+---
+
+## 🛠️ **Step 1: Clone the Repository**
+Run the following command to clone the project from GitHub:
+```sh
+git clone https://github.com/yourusername/HCI_AI.git
+cd HCI_AI
