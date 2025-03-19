@@ -56,3 +56,25 @@ Run the following command to clone the project from GitHub:
 ```sh
 git clone https://github.com/yourusername/HCI_AI.git
 cd HCI_AI
+```
+# 3️⃣ Set Up a Virtual Environment (Recommended)  
+
+It is **highly recommended** to create a **virtual environment** to manage dependencies.
+
+## 🔹 Create a virtual environment  
+```sh
+python -m venv env
+```
+## 🔹 Activate the virtual environment
+Windows : 
+```sh
+env\Scripts\activate
+```
+Mac/Linux:
+```sh
+source env/bin/activate
+```
+## 🔹 Install Dependencies
+```sh
+pip install -r requirements.txt
+```
