@@ -78,3 +78,8 @@ source env/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+## Add Your Groq API Key
+1. Open helloworld_ai.py.
+2. Replace "YOUR_GROQ_API_KEY_HERE" with your actual Groq API key.
+
+
